@@ -1,0 +1,29 @@
+.cell {
+    width: 30px;
+    height: 30px;
+    /*border: 1px solid #9c9c9c;*/
+    display: inline-block;
+    /*margin: 1px;*/
+    /*border-radius: 3px;*/
+
+    /*#a2d149*/
+    /*#aad751*/
+}
+
+.apple {
+    background: rgba(255, 35, 30, 0.65);
+    border-radius: 20px;
+    /*#e7471c*/
+
+}
+
+.rock {
+    background: #578a34;
+    border: none;
+}
+
+.snake {
+    background: #82f5b5;
+    /*#4876ec*/
+}
+
