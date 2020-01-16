@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efee3f01-42da-4c59-85ac-8933f5f443b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cell/Cell-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cell/Cell-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cell/Cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cell/Cell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game-over/gameOver-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game-over/gameOver-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game-over/gameOver.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game-over/gameOver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game/game-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/game-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/welcome/welcome-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/welcome/welcome-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +33,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
   </component>
   <component name="ProjectId" id="1WO01em2jDbPXU0lVZv9YmzK8To" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -115,6 +116,10 @@
       <workItem from="1574105504940" duration="19000" />
       <workItem from="1574765156037" duration="246000" />
       <workItem from="1579005120924" duration="1956000" />
+      <workItem from="1579015428217" duration="741000" />
+      <workItem from="1579031915662" duration="12445000" />
+      <workItem from="1579102115936" duration="2485000" />
+      <workItem from="1579118249716" duration="3228000" />
     </task>
     <servers />
   </component>

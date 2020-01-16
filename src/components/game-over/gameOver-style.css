@@ -1,3 +1,34 @@
-.game-over-page .button-wrapper {
-    background: #bb15ff;
+.game-over-page {
+    position: absolute;
+    background-color: #161c2ced;
+    width: 33%;
+    padding: 30px 0;
+    color: #E8E9EB;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-wrapper {
+    background-color: #E4B363;
+    color: #E8E9EB;
+    /*padding: 5px 10px;*/
+    /*border-radius: 10px;*/
+    /*width: 35%;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*margin: 0 auto;*/
+}
+
+.button-game-again {
+    color: #E8E9EB;
+    background-color: inherit;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.game-over-page__header {
+    margin: 0;
 }

@@ -1,4 +1,4 @@
-.welcome-page, .game-over-page{
+.welcome-page{
     margin: 10% auto;
     display: flex;
     flex-direction: column;
@@ -16,16 +16,16 @@ input {
     border-radius: 5px;
     border-width: 0.5px;
     border-style: solid;
-    border-color: #cfd8dc;
+    /*border-color: #cfd8dc;*/
 }
 input:focus {
     outline: none;
 }
 .button-wrapper {
-    background: #ffa615;
-    padding: 5px 10px;
+    /*background: #ffa615;*/
+    padding: 8px 10px;
     border-radius: 10px;
-    width: 65%;
+    width: 30%;
     display: flex;
     justify-content: center;
     margin: 0 auto;

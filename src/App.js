@@ -7,9 +7,9 @@ import GameOver from './components/game-over/gameOver';
 
 function App() {
     return <HashRouter>
-        <Route path="/" exact component={Welcome}/>
+        {/*<Route path="/" exact component={Welcome}/>*/}
         <Route path="/game" exact component={Game}/>
-        <Route path="/over" component={GameOver}/>
+        {/*<Route path="/over" component={GameOver}/>*/}
     </HashRouter>
 }
 

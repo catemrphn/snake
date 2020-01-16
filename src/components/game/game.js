@@ -1,7 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import './game-style.css';
 import Cell from '../cell/Cell';
-import {Redirect} from 'react-router-dom';
+// import {Redirect} from 'react-router-dom';
+import GameOver from "../game-over/gameOver";
 
 /**
  * 0 - UP
@@ -20,10 +21,12 @@ let directionDelta = [
 let snakeSize = 3;
 let intervalId = -1;
 
-function App(props) {
-    const width = 10;
-    const height = 10;
+function App() {
+    const width = 20;
+    const height = 20;
     const [field, setField] = useState(createGameField());
+    const [over, setOver] = useState(false);
+
 
     useEffect(() => {
         window.addEventListener('keyup', e => {
@@ -38,12 +41,12 @@ function App(props) {
             }
         });
 
-        intervalId = setInterval(
-            () => {
-                move();
-            },
-            500
-        );
+            intervalId = setInterval(
+                () => {
+                    move();
+                },
+                350
+            );
 
         return () => {
             clearInterval(intervalId);
@@ -99,9 +102,11 @@ function App(props) {
 
         if (nextCellIsBad) {
             clearInterval(intervalId);
-            // return <Redirect to='/over'/>
+            setOver(true);
+            if (getCookie('BestScore') < snakeSize - 3) {
+                setCookie('BestScore', snakeSize - 3);
+            }
         }
-
     }
 
     function createGameField() {
@@ -125,12 +130,11 @@ function App(props) {
             table[height - 1][i] = -2;
         }
 
-        table[2][2] = 1;
-        table[2][3] = 2;
-        table[2][4] = 3;
+        table[9][9] = 1;
+        table[8][9] = 2;
+        table[7][9] = 3;
         // snakeSize = 3;
 
-        // createRandomItems(table, 1, 1);
 
         createRandomItems(table, 1, -1);
 
@@ -162,17 +166,45 @@ function App(props) {
             );
         });
         return (
-            <div>
+            <div className='field-row-container'>
                 {rowsHtml}
             </div>
         )
     }
 
+    function getCookie(name) {
+        let matches = document.cookie.match(new RegExp(
+            "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+        ));
+        return matches ? decodeURIComponent(matches[1]) : undefined;
+    } 
+
+    function setCookie(name, value) {
+        document.cookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+
+    // }
+
+    }
+
+    function StartNewGame() {
+        let newField = createGameField();
+        setField(newField);
+        console.log(field);
+        setOver(false);
+
+
+    }
+
     return (
         <div className="App">
+            {/*{start ? 'start' : ''}*/}
+            {over ? <GameOver OnPlayAgain={StartNewGame} score={snakeSize - 3}/> : ''}
             <div className='snake-header'>
                 <h1>Snake</h1>
-                <p>Score: {snakeSize - 3} </p>
+                <div className='score-container'>
+                    <p>Score: {snakeSize - 3} </p>
+                    <p>Best score: {getCookie('BestScore')} </p>
+                </div>
             </div>
             <div className='field-container'>
                 {

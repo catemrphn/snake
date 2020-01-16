@@ -1,29 +1,28 @@
 .cell {
     width: 30px;
     height: 30px;
-    /*border: 1px solid #9c9c9c;*/
     display: inline-block;
-    /*margin: 1px;*/
-    /*border-radius: 3px;*/
+    background-color: #1E2736;
 
-    /*#a2d149*/
-    /*#aad751*/
+}
+
+.field-cell {
+    background-color: #1E2736;
+}
+
+.field-row-container:nth-child(even) .field-cell:nth-child(odd), .field-row-container:nth-child(odd) .field-cell:nth-child(even) {
+    background-color: #263546;
 }
 
 .apple {
-    background: rgba(255, 35, 30, 0.65);
-    border-radius: 20px;
-    /*#e7471c*/
+    background: #E34032;
 
 }
 
 .rock {
-    background: #578a34;
-    border: none;
+    background: #161d2c;
 }
 
 .snake {
-    background: #82f5b5;
-    /*#4876ec*/
+    background: #2D8BD3;
 }
-
