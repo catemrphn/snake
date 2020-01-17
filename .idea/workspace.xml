@@ -3,15 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="efee3f01-42da-4c59-85ac-8933f5f443b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cell/Cell-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cell/Cell-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cell/Cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cell/Cell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game-over/gameOver-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game-over/gameOver-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game-over/gameOver.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game-over/gameOver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/game-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/game-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/welcome/welcome-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/welcome/welcome-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game-over/gameOver-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/modal-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game-over/gameOver.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game/game-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/welcome/welcome-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/welcome/welcome.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,7 @@
       <workItem from="1579015428217" duration="741000" />
       <workItem from="1579031915662" duration="12445000" />
       <workItem from="1579102115936" duration="2485000" />
-      <workItem from="1579118249716" duration="3228000" />
+      <workItem from="1579118249716" duration="10848000" />
     </task>
     <servers />
   </component>
@@ -154,6 +153,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579284977539">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1579284977539" />
     <state width="1419" height="244" key="GridCell.Tab.0.bottom" timestamp="1579010300303">
       <screen x="61" y="23" width="1379" height="877" />
     </state>

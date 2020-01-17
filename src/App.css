@@ -6,3 +6,25 @@
   margin: 20px;
 }
 
+.snake-header {
+  color: #E8E9EB;
+  width: 30%;
+}
+
+.field-row-container {
+  height: 30px;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.snake-header h1 {
+  text-align: center;
+}
+
+.score-container p {
+  /*margin: 0;*/
+}
