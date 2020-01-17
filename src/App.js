@@ -218,7 +218,7 @@ function App() {
                 <h1>Snake</h1>
                 <div className='score-container'>
                     <p>Score: {snakeSize - 3} </p>
-                    <p>Best score: {getCookie('BestScore')} </p>
+                    <p>Best score: {getCookie('BestScore') !== undefined ? getCookie('BestScore') : 0 } </p>
                 </div>
             </div>
             <div className='field-container'>
