@@ -106,7 +106,8 @@ function App() {
         if (nextCellIsBad) {
             isRunning = false;
             setOver(2);
-            if (getCookie('BestScore') < snakeSize - 3) {
+            let score = snakeSize - 3;
+            if (getCookie('BestScore') < score || getCookie('BestScore') === undefined) {
                 setCookie('BestScore', snakeSize - 3);
             }
         }
